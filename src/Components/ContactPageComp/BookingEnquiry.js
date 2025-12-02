@@ -84,18 +84,19 @@ const BookingEnquiry = () => {
               </div>
             </div>
 
-            {/* Email */}
-            // <div className="flex items-start gap-5">
-            //   <span className="bg-white/20 backdrop-blur-md p-4 rounded-full flex items-center justify-center text-2xl">
-            //     <FaEnvelope />
-            //   </span>
-            //   <div>
-            //     <h3 className="font-semibold text-lg mb-1">Message Us</h3>
-            //     <a href="mailto:support@saurashtrapatelsamajbhawandwarka.space" className="text-gray-100 text-base break-all hover:underline">
-            //       support@saurashtrapatelsamajbhawandwarka.space
-            //     </a>
-            //   </div>
-            // </div>
+            {/* Email 
+            <div className="flex items-start gap-5">
+              <span className="bg-white/20 backdrop-blur-md p-4 rounded-full flex items-center justify-center text-2xl">
+                <FaEnvelope />
+              </span>
+              <div>
+                <h3 className="font-semibold text-lg mb-1">Message Us</h3>
+                <a href="mailto:support@saurashtrapatelsamajbhawandwarka.space" className="text-gray-100 text-base break-all hover:underline">
+                  support@saurashtrapatelsamajbhawandwarka.space
+                </a>
+              </div>
+            </div>
+            */}
           </div>
         </div>
 
