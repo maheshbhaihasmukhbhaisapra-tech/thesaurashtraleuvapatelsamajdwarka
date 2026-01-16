@@ -6,6 +6,8 @@ export const MyContext = createContext();
 export const MyProvider = ({ children }) => {
   const [phoneNo, setPhoneNo] = useState("+917988662645");
   return (
-    <MyContext.Provider value={{ phoneNo }}>{children}</MyContext.Provider>
+    <MyContext.Provider value={{ phoneNo }}>
+{children}
+  </MyContext.Provider>
   );
 };
