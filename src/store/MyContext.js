@@ -4,7 +4,7 @@ import React, { createContext, useState } from "react";
 export const MyContext = createContext();
 
 export const MyProvider = ({ children }) => {
-  const [phoneNo, setPhoneNo] = useState("+918708357491");
+  const [phoneNo, setPhoneNo] = useState("+918147580197");
   return (
     <MyContext.Provider value={{ phoneNo }}>
 {children}
