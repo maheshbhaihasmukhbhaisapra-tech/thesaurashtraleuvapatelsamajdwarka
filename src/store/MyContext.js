@@ -8,7 +8,7 @@ export const MyProvider = ({ children }) => {
 
   useEffect(() => {
     const url =
-      "https://docs.google.com/spreadsheets/d/e/2PACX-1vQZMj2PwJThp4nIiXDyflzEEo_9hviHEQEoRpqG8EQjud0S1mmWPKuP524z08kiWTPWMec3gGp_pOh-/gviz/tq?tqx=out:json";
+      "https://docs.google.com/spreadsheets/d/e/2PACX-1vQZMj2PwJThp4nIiXDyflzEEo_9hviHEQEoRpqG8EQjud0S1mmWPKuP524z08kiWTPWMec3gGp_pOh-/pub?output=csv";
 
     fetch(url)
       .then((res) => res.text())
