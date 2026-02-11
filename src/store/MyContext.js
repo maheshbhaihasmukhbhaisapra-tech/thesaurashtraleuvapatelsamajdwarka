@@ -4,7 +4,7 @@ import React, { createContext, useState, useEffect } from "react";
 export const MyContext = createContext();
 
 export const MyProvider = ({ children }) => {
-  const [phoneNo, setPhoneNo] = useState("+918147580197"); // fallback
+  const [phoneNo, setPhoneNo] = useState(""); // fallback
 
   useEffect(() => {
     const url =
